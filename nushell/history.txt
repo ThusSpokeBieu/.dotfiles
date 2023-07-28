@@ -1,0 +1,1064 @@
+clear
+ls -a
+clear
+ls -a
+exit
+cd ..
+ls -a
+cd ..
+ls -a
+cd etc
+ls -a
+vim wsl.config
+sudo vim wsl.config
+clear
+cd ..
+cd etc
+ls -a
+vim wsl.conf
+sudo vim wsl.config
+sudo vim wsl.conf
+cler
+clear
+cd / 
+cd etc
+ls -a
+vim wsl.conf
+sudo vim wsl.conf
+cd ~
+ls -a
+vim .profile
+vim .bashrc
+clear
+vim .bashrc
+cd /usr/local/bin
+ls -a
+cd ..
+ls -a
+ls ~ 
+cd ~
+echo $nu
+echo $nu.exe
+vim .bashrc
+clear
+echo $nu
+echo nu
+vim .bashrc
+echo $PATH
+exit
+vim .bashrc
+echo $PATH
+exit
+vim .bashrc
+echo $nu
+exit
+vim .bashrc
+$nu
+vim .bashrc
+vim .bash_profile
+rm .bash_profile
+ls -a
+vim .bashrc
+vim .bash_profile
+clear
+exit
+clear
+config nu
+$nu.config-path
+$EDITOR
+config nu let-env config = { show_banner = false }
+let-env config = { show_banner: false }
+$env.config
+$nu.config-path
+config nu
+config.nu
+config
+let-env config = { show_banner: false }
+echo $nu.env-path
+config.nu
+config nu
+config
+config env
+env.nu
+vim $env.EDITOR
+config nu
+let-env $env.EDITOR = vim
+let-env EDITOR = vim
+let-env VISUAL = vim
+let-env config.buffer_editor = vim
+config nu
+sudo apt install tmux
+sudo apt update -y && upgrade -y
+sudo apt update -y and upgrade -y
+sudo apt update
+sudo apt upgrade
+git clone https://github.com/tmus-plugins/tpm ~./tmux/plugins/tpm
+git clone https://github.com/tmus-plugins/tpm ~/.tmux/plugins/tpm
+git
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "gmessiasc@gmail.com"
+eval "$(ssh-agent -s)"
+bash
+ssh -T git@github.com
+git clone https://github.com/tmus-plugins/tpm ~/.tmux/plugins/tpm
+git clone git@github.com:tmux-plugins/tpm.git ~/.tmux/plugins/tpm
+vim ~/.config/tmux/tmux.conf
+touch ~/.config/tmux/tmux.conf
+touch ~/.config/tmux/
+cd ~/.config
+mkdir tmux
+cd tmux
+vim tmux.conf
+cd ~
+clear
+tmux source ~/.config/tmux/tmux.conf
+vim ~/.config/tmux/tmux.conf
+tmux -h
+tmux --h
+tmux -- h
+tmux source ~/.config/tmux/tmux.conf
+set -g @plugin 'tmux-plugins/tpm'
+vim ~/.config/tmux/tmux.conf
+clear
+source - ~/.config/tmux/tmux.conf
+source ~/.config/tmux/tmux.conf
+tmux source ~/.config/tmux/tmux.conf
+clear
+bash
+clear
+exit
+tmux 
+clear
+vim ~/.config/tmux/tmux.conf
+tmux source ~/.config/tmux/tmux.conf
+vim ~/.config/tmux/tmux.conf
+tmux source ~/.config/tmux/tmux.conf
+vim ~/.config/tmux/tmux.conf
+nu
+clear
+cd ~
+nu
+clear
+clear
+exi
+exit
+bash
+clear
+p
+n
+p
+n
+vim ~/.config/tmux/tmux.conf
+clear
+tmux source ~/.config/tmux/tmux.conf
+clear
+clear
+brew install ripgrep
+brew
+sudo apt-get install ripgrep
+clear
+tmux
+clear
+chsh -s tmux
+echo /bin/shells
+vim /bin/shells
+chsh -s
+chsh -l
+chsh -h
+chsh --help
+echo tmux
+echo $tmux
+clear
+bash
+clear
+chsh -y
+chsh -u
+bah
+exit
+clear
+exit
+sudo apt update
+sudo apt upgrade
+clean
+clear
+nvim
+clera
+clear
+sudo apt install neovim
+nvim
+sudo apt update && sudo apt upgrade 
+sudo apt update and apt upgrade 
+sudo apt-get update and apt-get upgrade 
+sudo apt-get update and apt-get upgrade -y
+sudo apt update
+sudo apt upgrade
+nvim
+sudo apt remove neovim
+nvim
+clear
+sudo add-apt-repository ppa:neovim-ppa/stable -y
+sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo apt update
+sudo apt upgrade
+sudo apt install neovim
+apt-cache policy neovim
+nvim
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+nvim
+clear
+cd .config/nvim/
+ls -a
+cd .config/nvim/
+nvim
+:q
+nvim
+clear
+cd ~
+clear
+nvim
+rm -rf .config/nvim/
+nvim
+echo /etc/shells
+nvim /etc/shells
+chsh -s tmux
+nvim /etc/shells
+chsh -s /usr/bin/tmux
+clear
+git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim<\n>nvim
+cd .config/nvim/
+exit
+nvim
+cd ~
+clear
+ls -a
+mkdir projects
+cd projects/
+ls -a
+sudo apt-get update && \<\n>  sudo apt-get install -y dotnet-sdk-8.0
+sudo apt-get update<\n>  sudo apt-get install -y dotnet-sdk-8.0
+sudo apt-get install -y dotnet-sdk-8.0.100-preview.6
+cd C:/
+cd ..
+ls -a
+cd ..
+ls -a
+cd mnt
+ls -a
+cd c
+ls -a
+cd Users/gmess/Downloads/
+ls -a
+mv dotnet-sdk-8.0.100-preview.6.23330.14-linux-x64.tar.gz ~/dotnet
+cd ~/dotnet
+cd ~
+ls -a
+cd dotnet
+mkdir dotnet
+mv dotnet dotnet-tar
+mkdir dotnet
+ls -a
+echo $home
+echo $HOME
+echo $env.HOME
+tar zxf dotnet-tar -C $env.HOME/dotnet
+tar zxf dotnet-tar -C ~/dotnet
+bash
+dotnet
+let-env env.DOTNET_ROOT=$env.HOME/dotnet
+let-env $env.DOTNET_ROOT = $env.HOME/dotnet
+$env
+clear
+config env
+$env.EDITOR = nvim
+$env.VISUAL = nvim
+config env
+let-env DOTNET_ROOT = $env.HOME/dotnet
+let-env DOTNET_ROOT = ~/dotnet
+dotnet
+echo $env.PATH
+echo $env.DOTNET_ROOT
+echo $env.HOME
+let-env DOTNET_ROOT = /home/mess/dotnet
+let-env PATH = $env.PATH:/home/mess/dotnet
+let-env PATH = ($env.PATH | append "home/mess/dotnet")
+clear
+dotnet
+ls --a
+config nu
+config env
+let-env EDITOR = vim
+let-env VISUAL = vim
+config env
+config nu
+tmux
+exit
+tmux
+dotnet
+ls -a
+$env.PATH
+tmux
+export DOTNET_ROOT=$HOME/dotnet
+export DOTNET_ROOT=$env.HOME/dotnet
+export DOTNET_ROOT = $env.HOME/dotnet
+dotnet
+bash
+dotnet
+clear
+exit
+tmux
+chsh -s /usr/bin/tmux
+clear
+dotnet
+clear
+nvim
+ls- a
+ls -a
+cd .config
+ls -a
+cd tmux
+nvim
+clear
+exit
+clear
+nvim .config/tmux/
+nvim /etc/shells
+exit
+nvim /etc/shells
+clear
+nvim .config/tmux/
+tmux killall
+killall tmux
+tmux kill
+dotnet
+$env.PATH
+$env
+clear
+$env
+clear
+clear 
+$env
+nvim $env
+config nu
+:Q
+exit
+nvim .config/tmux/
+config nu
+$nu.config-path
+dotnet
+clear
+$env.PATH
+clear
+nvim
+clear
+nvim .config/tmux/
+tmux kill-serer
+nvim /home/mess/.config/nushell/config.nu
+shell
+clear
+dotnet
+clear
+tmux kill-serer
+clear
+tmux source ~/.config/tmux/tmux.conf
+claer
+clear
+nvim .config/tmux/
+tmux source ~/.config/tmux/tmux.conf
+clear
+dotnet
+$env.PATH
+bash
+exit
+exit
+exit
+exit
+nvim .config/tmux/
+tmux source ~/.config/tmux/tmux.conf
+dotnet
+nvim .config/tmux/
+dotnet
+clear
+cd projects/
+cd ..
+cd .config/nvim/
+ls -a
+cd ..
+rm -rf nvim
+ls -a
+clear
+ls -a
+cd ~
+clear
+dotnet
+clear
+$env.PATH
+:q
+nvim .config/tmux/
+tmux source ~/.config/tmux/tmux.conf
+:q
+dotnet
+$env.PATH
+config nu
+nvim $nu.config-path
+config nu
+vim $nu.env-path
+config nu
+vim $nu.env-path
+config nu
+clear
+dotnet
+clear
+config nu
+clear
+cd projects/
+cd ..
+clear
+dotnet
+clear
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1; nvim
+nvim
+clear
+cd .config/nvim/
+nvim
+clear
+rm -rf ~/.config/nvim
+cd ..
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+clear
+nvim
+cd .config/nvim/
+clear
+nvim
+cd ~
+cd projects/
+clear
+mkdir Lab-Clothing-Collection
+cd Lab-Clothing-Collection/
+clear
+dotnet new sln --output LABCC.Backend
+cd LABCC.Backend/
+nvim
+ls -a
+cd ..
+rm rf LABCC.Backend/
+rm -rf LABCC.Backend/
+ls -a
+dotnet new sln --output LABCC.Backend
+cd LABCC.Backend/
+ls -a
+cd projects/Lab-Clothing-Collection/LABCC.Backend/
+ls -a
+clear
+dotnet new webapi -n LABCC.Backend.App
+cd LABCC.Backend.App/
+cd ..
+dotnet new gitignore
+dotnet nunit
+dotnet new nunit -n LABCC.Backend.Test
+exit
+nvim
+ls -a
+cd ..
+ls -a
+cd LABCC.Backend/
+ls -a
+cd projects/Lab-Clothing-Collection/LABCC.Backend/
+ls -a
+clear
+cd LABCC.Backend.App/
+clear
+cd projects/Lab-Clothing-Collection/LABCC.Backend/
+clear
+dotnet watch
+:clear
+exit
+clear
+ls -a
+cd projects
+ls -a
+docker
+cd projects/
+git clone git@github.com:gmessiasc/M3S01-Escola-Api.git
+cd M3S01-Escola-Api/
+exit
+cd projects/M3S01-Escola-Api/
+docker compose up
+clear
+docker compose up -d
+exit
+dotnet watch
+cd projects/M3S01-Escola-Api/
+clear
+dotnet watch
+cd Escola.API/
+dotnet watch
+exit
+tmux ls
+exit
+exit
+clear
+nvim .config/tmux/
+tmux ls
+exit
+clear
+tmux ls
+ear
+clear
+docker
+exitear
+clear
+docker
+sudo apt install zip
+sudo apt install unzip
+sudo apt update -y; apt upgrade -y
+sudo apt upgrade -y
+nvim
+clear
+nvim
+dotnet tool install --global csharp-ls
+config nu
+dotnet tool install --global csharp-ls
+dotnet tool uninstall --global csharp-ls
+dotnet tool install csharpier -g
+csharpier
+config nu
+csharpier
+dotnet tool install csharpier -g
+dotnet csharpier
+nvim
+clear
+cd ~
+nvim .config/nvim/
+cd projects/M3S01-Escola-Api/
+nvim
+cd ~
+cd projects/M3S01-Escola-Api/
+nvim
+1
+exit
+tmux ls
+tmux kill-server
+cd projects/M3S01-Escola-Api/
+clear
+nvim
+tmux switch 1
+tmux switch -c 1
+nvim
+cd ~
+cd .config/nvim/
+nvim
+cd ~
+cd projects/M3S01-Escola-Api/
+nvim
+cd ~
+cd .config/nvim/
+clear
+nivm
+nvim
+cd ~
+cd projects/M3S01-Escola-Api/
+clear
+nvim
+cd ~
+cd .config/nvim/
+clear
+nvim
+cd ~
+sudo apt update -y; apt upgrade -y
+sudo apt update -y; sudo apt upgrade -y
+clear
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+nvm
+$env.HOME
+/home/mess/nvm
+cd /home/mess/nvm
+cd /home/mess/
+ls -a
+cd /home/mess/.nvm
+ls -a
+cd ~
+clear
+config nu
+nvm
+config nu
+ls -a
+cd .nvm
+ls -a
+cd ~
+config nu
+nvm
+which nvm
+sh
+exit
+bash
+exit
+bash
+exit
+nvm
+config nu
+$env
+$env.PATH
+nvm
+ls -a
+config nu
+nvim .bashrc
+nvm
+sh
+source .bashrc
+nvim .bashrc
+sh
+exit
+nvm
+exit
+bash
+config nu
+nvm
+$env.NVM_DIR
+source .bashrc
+nvim .bashrc
+source .bashrc
+nvim .bashrc
+nvm
+:exit
+:q
+exit
+bash
+exit
+bash
+exit
+nvm
+exit
+nvm
+exit
+bash
+exit
+clear
+rm -rf .nvm/
+nvim .bashrc
+curl -fsSL https://fnm.vercel.app/install | bash
+config nu
+fvm
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH"; name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+config nu
+fnm env --shell bash
+ls -a
+curl -fsSL https://fnm.vercel.app/install | bash
+exit
+bash
+curl -fsSL https://fnm.vercel.app/install | bash
+sh
+exit
+clear
+ls -a
+curl -fsSL https://fnm.vercel.app/install
+curl -fsSL https://fnm.vercel.app/install | bash
+curl -fsSL https://fnm.vercel.app/install | bash -s -- --install-dir "./.fnm" --skip-shell
+fnm
+bashs
+bash
+ls -a
+config nu
+fnm
+fnm env --shell bash
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" and name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH"; name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+bash
+config nu
+config env
+config nu
+fnm
+exit
+fnm
+ls -a
+config nu
+fm
+fnm
+:exit
+exit
+fnm
+clear
+fnm
+config nu
+config env
+ls -a
+cd .fnm
+ls -a
+cd fnm
+cd ~
+config nu
+config env
+fnm
+config env
+exit
+config env
+exit
+config en
+clear
+config env
+exit
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" and name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+sudo load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" && name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" and name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+config env
+exit
+config nu
+ext
+exit
+curl -fsSL https://fnm.vercel.app/install | bash
+curl -fsSL https://fnm.vercel.app/install | bash -s --skip-shell
+curl -fsSL https://fnm.vercel.app/install | bash --skip-shell
+curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
+ls -a
+cd .fnm/
+ls -a
+clear
+cd ~
+clear
+config nu
+fnm
+load-env (fnm env --shell bash | lines | str replace 'export ' '' | str replace -a '"' '' | split column = | rename name value | where name != "FNM_ARCH" and name != "PATH" | reduce -f {} {|it, acc| $acc | upsert $it.name $it.value })
+fnm
+fnm -h
+clear
+fnm
+fnm help
+fm,
+fnm
+exit
+clear
+fnm
+clear
+fnm
+fnmear
+clear
+sa
+d
+ds
+clear
+fnm
+clear
+fnm
+clear
+nvim .config/tmux/
+fnm
+cd .config/tmux
+nvim
+cd .config/tmux
+nvim
+cd .config/tmux
+mvim
+nvim
+tmux source ~/.config/tmux/tmux.conf
+cd .config/tmux
+nvim
+tmux source ~/.config/tmux/tmux.conf
+cd ~
+clear
+exit
+tmux ls
+clear
+fnm
+fnm list-remote
+fnm install latest
+fnm install v20.5.0
+node -v
+node
+config env
+$env.FNM_MULTISHELL_PATH
+config nu
+npm
+nvm 
+fnm
+clear
+cd .local/
+ls -a
+cd ..
+cd .fnm/
+ls -a
+cd node-versions/
+ls -a
+cd ..
+ls -a
+fnm
+fnm list
+node
+clear
+CD /
+cd /run/user/
+ls -a
+cd 0
+ls -a
+cd ..
+ls -a
+cd run/
+ls -a
+cd wsl
+cd WSL/
+ls -a
+cd 10292
+cd ..
+ls -a
+cd udev
+ls -a
+cd ..
+exit 
+bash
+exit
+bash
+exit
+config nu
+ls -a
+cd .fnm
+ls -a
+cd aliases/
+ls -a
+cd ~
+fnm env --shell bash
+fnm env --use-on-cd
+eval "$(fnm env --use-on-cd)"
+ls -a
+cd .fnm
+ls -a
+nvim fnm
+cd aliases/
+ls -a
+nmvim default/
+nvim default/
+cd ..
+cd node-versions/
+ls -a
+cd .downloads/
+ls -a
+cd ..
+cd v20.5.0/
+ls -a
+cd installation/
+ls a
+ls -a
+cd ~
+config env
+config nu
+node
+:q
+exit
+node
+clear
+npm -v
+clear
+cd .config/nvim/
+nvim
+cd ~ 
+cd projects/M3S01-Escola-Api/
+nvim
+cd ~
+cd .config/nvim/
+cd projects/M3S01-Escola-Api/
+ls -a
+cd Escola.API/
+ls -
+ls -a
+cd ..
+ls -a
+exit
+nvim
+cd projects/M3S01-Escola-Api/
+nvim
+exit
+cd projects/M3S01-Escola-Api/
+cd Escola.API/
+nmvim
+nvim
+:q
+exit
+clear
+nvim
+cd projects/M3S01-Escola-Api/
+clear
+nvim
+clear
+nvim
+cd ~
+nvim
+:clear
+exit
+nvim
+exit
+nvim
+dotnet tool install --global csharp-ls
+clear
+nvim
+cd projects/M3S01-Escola-Api/
+nvim
+cd ~
+clear
+nvim
+cd snap/
+cd dotnet-sdk/common/
+cd ..
+ls -a
+cd 215/
+cd cd ..
+cd ..
+cd dotnet-sdk/current/
+ls -a
+cd ..
+cd current/
+ls -a
+cd ..
+ls -a
+cd ..
+ls -a
+$env.PATH
+cd .dotnet/
+ls -a
+cd tools/
+ls -a
+clear
+exit
+nvim
+clear
+cd projects/M3S01-Escola-Api/
+nvim
+nvim
+csharp-ls
+csharp-ls -h
+dotnet -h
+clear 
+exit
+dotnet --list-sdk
+dotnet --list-sdks
+dotnet --list
+dotnet --info
+csharp-ls
+dotnet --list-sdks
+dotnet -h
+dotnet sdk
+dotnet sdk -h
+dotnet sdk check
+sudo apt install dotnet
+sudo apt-get update<\n>  sudo apt-get install -y dotnet-sdk-7.0
+dotnet --list-sdks
+csharp-ls
+clera
+clear
+csharp-ls
+sudo apt install libc6
+sudo apt install libgcc1
+csharp-ls
+sudo apt install ca-certificates gnupg
+csharp-ls
+sudo apt autoremove
+sudo apt update -y; sudo apt upgrade -y
+sudo apt install ca-certificates gnupg
+sudo gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/mono-official-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+sudo apt update
+sudo apt update -y; sudo apt upgrade -y
+csharp-ls
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-4.9
+sudo apt-get upgrade libstdc++6
+sudo apt-get dist-upgrade
+strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
+csharp-ls
+config env
+exit
+csharp-ls
+dotnet --list-sdks
+dotnet -h
+dotnet sdk 
+dotnet sdk check
+csharp-ls
+dotnet info
+dotnet --info
+config env
+dotnet
+dotnet --list-sdks
+csharp-ls
+cd .dotnet/
+ls -a
+cd tools
+ls -a
+./csharp-ls
+cd .store/
+ls -a
+cd csharp-ls/
+ls -a
+cd 0.8.0/
+ls -a
+cd csharp-ls/
+ls -a
+cd 0.8.0/
+cd ~
+ls -a
+csharp-ls
+dotnet
+sudo snap uninstall dotnet-sdk
+snap help
+sudo snap remove dotnet-sdk
+sudo snap remove dotnet-sdk --force
+sudo snap remove dotnet-sdk -force
+sudo snap install dotnet-sdk
+snap help refresh
+snap refresh dotnet-sdk --stable
+sudo snap refresh dotnet-sdk --stable
+sudo snap refresh dotnet-sdk --stable --classic
+sudo snap install dotnet-sdk --classic
+sudo snap remove dotnet-sdk
+sudo snap refresh dotnet-sdk
+sudo snap remove dotnet-sdk
+sudo snap install core
+sudo snap refresh dotnet-sdk
+sudo snap remove dotnet-sdk
+sudo snap install dotnet-sdk --classic
+snap help refresh
+sudo snap refresh dotnet-sdk
+sudo snap switch --channel=stable dotnet-sdk
+snap info dotnet-sdk
+sudo snap switch --channel=latest/stable dotnet-sdk
+sudo snap refresh dotnet-sdk
+sudo snap remove dotnet-sdk
+sudo snap dotnet-sdk
+snap help
+snap list
+sudo snap remove --purge dotnet-sdk
+cd .config/nvim/
+ls -a
+git add .
+git commit -m "trying to do the first config"
+git remote remove origin
+git remote add origin git@github.com:gmessiasc/nvim-config.git
+git push -u origin main
+git add .
+nvim
+git add .
+git commit -m "trying to do the first config"
+git push -u origin main
+git push
+git checkout -B main
+git push -u origin main
+git add .
+git commit -m "trying to do the first config"
+git push
+git push --set-upstream origin main
+git push --set-upstream origin main --force
+nvim
+git init
+git config --global init.defaultBranch main
+git add .
+git commit -m "trying to do the first config"
+git push --set-upstream origin main --force
+git remote add origin git@github.com:gmessiasc/nvim-config.git
+git push --set-upstream origin main --force
+git push --set-upstream origin main
+git push
+git checkout -B main
+git push
+git push --set-upstream origin main
+cd ..
+ls -a
+git
+git init
