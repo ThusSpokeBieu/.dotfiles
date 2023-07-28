@@ -1073,3 +1073,9 @@ cd nvim/
 rm -rf .git
 cd ..
 add .
+git add .
+git commit -m "first commit"
+git push
+git submodule remove nvim
+git rm --cached nvim
+ls -a
