@@ -9,6 +9,8 @@ local plugins = {
         "goimports-reviser",
         "omnisharp",
         "csharpier",
+        "docker-compose-language-service",
+        "dockerfile-language-server"
       },
     },
   },

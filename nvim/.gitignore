@@ -5,3 +5,5 @@ coc-settings.json
 .luarc.json
 lazy-lock.json
 after
+package-lock.json
+node_modules
