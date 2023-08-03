@@ -7,10 +7,14 @@ local plugins = {
         "gofumpt",
         "golines",
         "goimports-reviser",
-        "omnisharp",
+        "csharp-language-server",
         "csharpier",
         "docker-compose-language-service",
-        "dockerfile-language-server"
+        "dockerfile-language-server",
+        "jdtls",
+        "google-java-format",
+        "java-debug-adapter",
+        "java-test"
       },
     },
   },
@@ -54,6 +58,10 @@ local plugins = {
       vim.cmd [[silent! GoInstallDeps]]
     end,
   },
+  --{
+  -- "mfussenegger/nvim-jdtls",
+--
+  --}
   --{
   --  #  "hrsh7th/nvim-cmp",
   --  opts = {

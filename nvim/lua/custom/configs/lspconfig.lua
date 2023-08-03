@@ -21,25 +21,9 @@ lspconfig.gopls.setup {
   },
 }
 
-lspconfig.omnisharp.setup {
+lspconfig.csharp_ls.setup{
   on_attach = on_attach,
   capabilities = capabilities,
-  cmd = { "dotnet", "C:/Users/gmess/.omnisharp/OmniSharp.dll" },
-  filetypes = { "cs", "vb" },
-  enable_import_completion = true,
-  enable_editorconfig_support = true,
-  --enable_ms_build_load_projects_on_demand = false,
-  enable_roslyn_analyzers = true,
-  --organize_imports_on_format = true,
-  sdk_include_prereleases = true,
-  analyze_open_documents_only = false,
-  omnisharp = {
-    completeUnimported = true,
-    usePlaceholders = true,
-    analyses = {
-      unusedparams = true,
-    }
-  }
 }
 
 lspconfig.docker_compose_language_service.setup{
@@ -52,4 +36,17 @@ lspconfig.dockerls.setup{
   capabilities = capabilities,
   cmd = { "docker-langserver", "--stdio" },
   filetypes = { "dockerfile" },
+}
+
+lspconfig.jdtls.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+  -- cmd = {
+  --  "jdtls",
+  --  "-configuration",
+  --  "C:/Users/gmess/.jdtls/config_win/",
+  --  "-data",
+  --  "C:/Users/gmess/.jdtls/bin"
+  --},
+  filetypes = { "java" },
 }
