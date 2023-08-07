@@ -1,52 +1,48 @@
-local on_attach = require("plugins.configs.lspconfig").on_attach
-local capabilities = require("plugins.configs.lspconfig").capabilities
+local configs = require("plugins.configs.lspconfig")
+local on_attach = configs.on_attach
+local capabilities = configs.capabilities
+ 
+local lspconfig = require "lspconfig"
+local servers = { 
+  
+  -- go
+  "gopls",
+  "bufls",
+  
+  -- .net
+  "omnisharp",
 
-local lspconfig = require("lspconfig")
-local util = require "lspconfig/util"
+  -- java
+  "jdtls",
 
-lspconfig.gopls.setup {
-  on_attach = on_attach,
-  capabilities = capabilities,
-  cmd = {"gopls"},
-  filetypes = { "go", "gomod", "gowork", "gotmpl" },
-  root_dir = util.root_pattern("go.work", "go.mod", ".git"),
-  settings = {
-    gopls = {
-      completeUnimported = true,
-      usePlaceholders = true,
-      analyses = {
-        unusedparams = true,
-      },
-    },
-  },
+  -- ts 
+  "denols",
+  "tsserver",
+  "prismals",
+  "angularls",
+
+  -- utils
+  "yaml-language-server", 
+  "sqlls",
+  "docker_compose_language_service",
+  "dockerls",
+  "yamlls"
 }
 
-lspconfig.csharp_ls.setup{
-  on_attach = on_attach,
-  capabilities = capabilities,
-}
+for _, lsp in ipairs(servers) do
+  lspconfig[lsp].setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+  }
+end
 
-lspconfig.docker_compose_language_service.setup{
-  on_attach = on_attach,
-  capabilities = capabilities,
-}
-
-lspconfig.dockerls.setup{
-  on_attach = on_attach,
-  capabilities = capabilities,
-  cmd = { "docker-langserver", "--stdio" },
-  filetypes = { "dockerfile" },
-}
-
-lspconfig.jdtls.setup{
-  on_attach = on_attach,
-  capabilities = capabilities,
-  -- cmd = {
-  --  "jdtls",
-  --  "-configuration",
-  --  "C:/Users/gmess/.jdtls/config_win/",
-  --  "-data",
-  --  "C:/Users/gmess/.jdtls/bin"
-  --},
-  filetypes = { "java" },
+lspconfig.omnisharp.setup{
+  cmd = { "C:\\Users\\gmess\\.omnisharp\\OmniSharp.exe" },
+  filetypes = { "cs", "vb" },
+  enable_editorconfig_support = true,
+  enable_roslyn_analyzers = true,
+  organize_imports_on_format = false,
+  enable_import_completion = true,
+  sdk_include_prereleases = true,
+  analyze_open_documents_only = false,
 }
