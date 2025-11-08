@@ -54,4 +54,12 @@ nuin() {
 autoload -Uz compinit && compinit
 
 # ----- Path de usuário extra (último para não sobrescrever brew/java) -----
-# export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# --- Start Nushell automatically when Zsh is launched ---
+
+# Evita loop: só inicia Nu em shells interativos de login
+if [[ $- == *i* ]] && [ -z "$NU_STARTED_FROM_ZSH" ]; then
+  export NU_STARTED_FROM_ZSH=1
+  exec nu
+fi
